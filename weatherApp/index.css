@@ -1,0 +1,27 @@
+select{
+    font-size: 40px;
+    color: black;
+    background-color: #5353c01c;
+    text-align: center;
+    border: none;
+    border-radius: 4px;
+    height: 72px;
+    line-height: 72px;
+    padding: 0 32px;
+}
+
+label{
+    font-size: 40px;
+}
+
+h3{
+    border-left: solid 15px;
+    border-bottom: solid 1px;
+    border-right: solid 5px;
+    border-color: #5353c0;
+    background-color: #5353c01c;
+    padding: 4px 12px;
+}
+p{
+    font-size: 20px;
+}

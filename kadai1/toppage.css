@@ -1,0 +1,108 @@
+@charset "utf-8";
+
+/* 全体に対する設定 */ 
+body {
+	margin: 0;
+	padding: 0;
+	font-size: small;
+	color: #333;
+	background-color: white;
+}
+
+#page {
+	margin: 0 auto;
+	width: 900px;
+}
+
+#main {
+	float: left;
+	width: 440px;
+	margin-right: 20px;
+}
+
+#sub {
+	float: left;
+	width: 440px;
+}
+
+footer {
+	clear: both;
+}
+
+h1,h2 {
+	color: #222;
+}
+h1 {
+	font-size: x-large;
+}
+h2 {
+	font-size: medium;
+}
+p {
+	line-height: 1.7;
+}
+section, aside,nav,header,footer {
+	display: block;
+}
+
+/* 記事に対する設定 */
+/* id=sub内のasideタグを指定 */
+#sub aside {
+	margin: 20px 0px 20px 10px;
+	padding: 10px;
+	border: 1px solid #ddd;
+	border-radius: 7px;
+	background-color: #f5f5f5;
+	text-shadow: 1px 1px 0 #fff;
+}
+.subtitle {
+	color: blue;
+	font-weight: bold;
+	padding-left: 5px;
+	border-left: 10px solid blue;
+	
+}
+
+/* フッターに対する設定 */
+footer {
+	border-top: 1px solid #ccc;
+}
+#copyright {
+	padding-top: 20px;
+	text-align: center;
+	color: #999;
+}
+
+/* ナビゲーションに対する設定1 */
+nav li,nav a {
+	display: block;
+}
+
+nav li {
+	float: left;
+	border-right: 1px solid #ddd;
+}
+
+nav ul {
+	overflow: hidden;
+	margin: 0 0 10px 0;
+	padding: 0;
+	border: 1px solid #ddd;
+	line-height: 1.0;
+	background-color: silver;
+}
+
+nav a {
+	padding:15px 25px;
+	font-weight: bold;
+	text-decoration: none;
+	text-shadow: 1px 1px 0 #fff;
+}
+
+nav a:hover {
+	background-color: snow;
+}
+nav #current {
+	color: #333;
+	background-color: snow;
+}
