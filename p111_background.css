@@ -1,0 +1,37 @@
+body {
+    background-color: green;
+}
+
+[class] {
+    display: block;
+    width: 500px;
+    height: 500px;
+    height: 500px;
+    padding: 10px;
+    border: solid 1px black;
+    background-color: blue;
+}
+
+.img1 {
+    background-color: gray;
+    text-shadow: 5px 5px 1px;
+}
+
+.img2 {
+    background-image: url(img/lightgreen.png);
+    font-size: large;
+    text-shadow: 5px 5px 1px;
+}
+
+.img3 {
+    background-image: url('img/red.png');
+    background-repeat: repeat-y;
+    text-shadow: 5px 5px 1px;
+}
+
+.img4 {
+    background-image: url("img/yellow.png");
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    text-shadow: 5px 5px 1px;
+}

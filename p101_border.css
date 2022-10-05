@@ -1,0 +1,19 @@
+h3 {
+    border-right: solid #ff0000 5px;
+    border-bottom: solid #ff0000 1px;
+    border-left: solid #ff0000 20px;
+}
+
+p{
+    border: solid #333333 3px;
+    margin-left: 20px;
+    padding: 8px;
+}
+
+h3:hover,p::first-letter{
+ font-size: 30px;   
+ color: coral;
+ font-family: 'Times New Roman', Times, serif;
+}
+
+

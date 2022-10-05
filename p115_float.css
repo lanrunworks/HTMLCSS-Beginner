@@ -1,0 +1,27 @@
+[class]{
+    margin: 20px;
+    padding: 10px;
+}
+
+.block1{
+    display: block;
+    float: left;
+    width: 200px;
+    border: solid 2px red;
+    position: absolute;
+    top: 20px;
+    left: 30px;
+}
+
+.block2{
+    display: block;
+    float: left;
+    width: 200px;
+    border: dashed 2px blue;
+}
+
+.block3{
+    clear: both;
+    width: 200px;
+    border: dotted 2px green;
+}

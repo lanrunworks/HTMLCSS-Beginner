@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>オープンキャンパス申し込み</title>
+</head>
+
+<body>
+
+    <form action="p77_sample.php">
+        <!-- 
+            1行の入力欄
+            name:入力データと一緒に送信される名前のようなもの
+            placeholder:入力がされていないときに表示する文字列
+         -->
+        <p>
+            氏名<input type="text" name="shimei" size="20" maxlength="30" placeholder="氏名を入力"><br>
+            受付番号<input type="text" name="gakuseki" size="20" placeholder="受付番号を入力">
+        </p>
+
+        <!-- 
+            ラジオボタン
+            value:選択した後、送信するときの値
+            checked:選択した状態にする(="true"はなくても可)
+        -->
+        <p>
+            性別<br>
+            <input type="radio" name="seibetu" value="male" checked="true">男<br>
+            <input type="radio" name="seibetu" value="female">女
+        </p>
+
+        <!-- チェックボックス -->
+        <p>
+            希望する模擬授業科目<br>
+            <input type="checkbox" name="kamoku" value="kei" checked>経営学基礎
+            <input type="checkbox" name="kamoku" value="ei">英会話演習
+            <input type="checkbox" name="kamoku" value="min">人間環境論
+            <input type="checkbox" name="kamoku" value="com">コンピュータ実習
+        </p>
+
+        <!-- 
+            ドロップダウンリスト
+            size:表示する項目数
+            selected:初期状態で選択しておく値
+         -->
+        <p>
+            希望する学部<br>
+            <select size="1" name="gakubu">
+                <option selected value="経営">経営学部</option>
+                <option value="外国語">外国語学部</option>
+                <option value="人間">人間学部</option>
+            </select>
+        </p>
+        <p>
+            希望すること<br>
+            <textarea name="kibou" placeholder="大学に何か希望することがあれば書いてください。" cols="50" rows="3"></textarea>
+        </p>
+        <p>
+            <button type="submit" name="send">送信ボタン</button>
+            <button type="reset" name="reset">取り消しボタン</button>
+        </p>
+    </form>
+</body>
+
+</html>

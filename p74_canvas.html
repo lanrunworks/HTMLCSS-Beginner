@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>canvasのサンプル</title>
+</head>
+
+<body>
+    <canvas id="canvas" width="400" height="400">描画用領域</canvas>
+    
+    <!-- Javascriptのコード -->
+    <script>
+        // 描画コンテキストの取得
+        var canvas = document.getElementById('canvas');
+        var ctx = canvas.getContext('2d');
+
+        // 色の指定
+        ctx.clearRect(0, 0, 300, 300);  // Canvasのクリア
+        ctx.strokeStyle = "#44c";       // 枠線の色  
+        ctx.fillStyle = "#fcc";         //塗りつぶしの色
+
+        // 左から50上から50の位置に、幅200高さ200の四角を描く
+        ctx.fillRect(50, 50, 200, 200);
+        // 左から50上から50の位置に、幅200高さ200の四角の枠線を描く
+        ctx.strokeRect(50, 50, 200, 200);
+    </script>
+    <!-- Javascriptのコードはここまで -->
+
+</body>
+
+</html>

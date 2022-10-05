@@ -1,0 +1,31 @@
+[id] {
+    margin: 0px;
+    padding: 10px 50px;
+}
+
+#rei1 {
+    border: double 4px #0000ff;
+    border-radius: 20px;
+}
+
+#rei2 {
+    border: groove 10px green;
+    border-radius: 20px / 40px;
+}
+
+#rei3 {
+    border-left-style: solid;
+    border-left-width: 10px;
+    border-width: 10px;
+    border-left-color: rgb(255, 0, 0);
+    border-radius: 20px 40px 50px 60px;
+    border: 10px solid rgb(255, 0, 0);
+}
+
+#rei4 {
+    border-width: 0px 0px 1px 10px;
+    border-left-style: solid;
+    border-bottom-style: dotted;
+    border-left-color: blue;
+    border-bottom-color: #f0f;
+}
